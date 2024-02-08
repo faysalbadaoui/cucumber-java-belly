@@ -32,7 +32,6 @@ public class BellyCukesSteps {
 
     @When("^I don't wait$")
     public void I_don_t_wait() throws Throwable {
-        // Express the Regexp above with the code you wish you had
-        throw new PendingException();
+        this.waitingTime = 0;
     }
 }
